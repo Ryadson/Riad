@@ -1,0 +1,38 @@
+/*Style css*/
+
+ul {
+  list-style-type: none; /*remover marcadores*/
+  padding: 0;
+}
+li {
+  display: inline;
+  margin-right: 10px; /*Para alinhar a direta*/
+  font-weight: bold;
+}
+a {
+  text-decoration: none; /*Para tirar o sublinhado do link*/
+}
+
+body {
+  text-align: center; /* Centraliza todo o texto na página */
+  background-color: lightgray;
+}
+
+.container {
+  width: 100%; /* Define a largura como 100% para que o conteúdo se ajuste à largura da tela */
+  max-width: 800px; /* Define uma largura máxima para o conteúdo da página */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+  text-align: left; /* Alinha o texto à esquerda dentro do contêiner */
+}
+
+h1,
+h2 {
+  margin-bottom: 20px; /* Adiciona margem inferior aos títulos para separá-los do conteúdo abaixo */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 10px 0;
+}
